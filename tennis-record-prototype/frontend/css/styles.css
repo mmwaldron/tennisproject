@@ -1,0 +1,241 @@
+/* TennisRecord — sports analytics dashboard styling */
+
+:root {
+  --tennis-green: #2d5a27;
+  --tennis-green-light: #3d7a35;
+  --court-line: #e8e8e8;
+  --bg-subtle: #f8f9fa;
+  --text-muted: #5a6c5a;
+  --trend-up: #198754;
+  --trend-down: #dc3545;
+  --trend-stable: #6c757d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg-subtle);
+  color: #212529;
+  min-height: 100vh;
+  padding-top: 56px;
+}
+
+/* Sticky header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar {
+  background: linear-gradient(135deg, var(--tennis-green) 0%, var(--tennis-green-light) 100%);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #fff !important;
+}
+
+.brand-icon {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem !important;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Main content area — full width, no ads */
+.main-content {
+  width: 100%;
+  max-width: 100%;
+  padding: 1.5rem;
+  min-height: calc(100vh - 56px);
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    padding: 2rem;
+  }
+}
+
+/* Cards and panels */
+.card {
+  border: 1px solid var(--court-line);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  background: #fff;
+  border-bottom: 1px solid var(--court-line);
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Rating badge and trend */
+.rating-badge {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--tennis-green);
+}
+
+.trend-up { color: var(--trend-up); }
+.trend-down { color: var(--trend-down); }
+.trend-stable { color: var(--trend-stable); }
+
+.trend-icon {
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+/* Empty states */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--text-muted);
+}
+
+.empty-state-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+/* Loading spinner */
+.loading-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  color: var(--text-muted);
+}
+
+.spinner-border {
+  margin-right: 0.5rem;
+}
+
+/* Filter panel */
+.filter-panel {
+  background: #fff;
+  border: 1px solid var(--court-line);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-panel .form-label {
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Tables */
+.table-analytics {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.table-analytics thead {
+  background: var(--tennis-green);
+  color: #fff;
+}
+
+.table-analytics thead th {
+  border: none;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.table-analytics tbody tr {
+  transition: background 0.15s;
+}
+
+.table-analytics tbody tr:hover {
+  background: rgba(45, 90, 39, 0.04);
+}
+
+.table-analytics tbody td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--tennis-green);
+  border-color: var(--tennis-green);
+}
+
+.btn-primary:hover {
+  background: var(--tennis-green-light);
+  border-color: var(--tennis-green-light);
+}
+
+.btn-outline-primary {
+  border-color: var(--tennis-green);
+  color: var(--tennis-green);
+}
+
+.btn-outline-primary:hover {
+  background: var(--tennis-green);
+  color: #fff;
+  border-color: var(--tennis-green);
+}
+
+/* Accordion (team roster) */
+.accordion-button:not(.collapsed) {
+  background: rgba(45, 90, 39, 0.08);
+  color: var(--tennis-green);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(45, 90, 39, 0.25);
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: var(--tennis-green);
+}
+
+.pagination .page-item.active .page-link {
+  background: var(--tennis-green);
+  border-color: var(--tennis-green);
+}
+
+/* Player row clickable */
+.player-row {
+  cursor: pointer;
+}
+
+/* Subtle animation for dynamic content */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: fadeIn 0.25s ease-out;
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9lKECxGVQWTfX4vxEU6MYZbhq5EQpjh4o7ANmF79Uc4=",
+  "Source": "TennisRecord.Api",
+  "BasePath": "_content/TennisRecord.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
