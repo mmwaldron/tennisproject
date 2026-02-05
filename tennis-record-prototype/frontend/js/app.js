@@ -7,6 +7,8 @@ import * as ratings from './views/ratings.js';
 import * as search from './views/search.js';
 import * as teams from './views/teams.js';
 import * as rankings from './views/rankings.js';
+import * as bookmarks from './views/bookmarks.js';
+
 
 const routes = {
   '': { view: home, id: 'home' },
@@ -14,7 +16,8 @@ const routes = {
   '/ratings': { view: ratings, id: 'ratings' },
   '/search': { view: search, id: 'search' },
   '/teams': { view: teams, id: 'teams' },
-  '/rankings': { view: rankings, id: 'rankings' }
+  '/rankings': { view: rankings, id: 'rankings' },
+  '/bookmarks': { view: bookmarks, id: 'bookmarks' }
 };
 
 const pageContent = document.getElementById('page-content');

@@ -13,6 +13,7 @@ export function render() {
           <a href="#/search" class="btn btn-outline-primary btn-lg">Player Search</a>
           <a href="#/teams" class="btn btn-outline-primary btn-lg">Team Search</a>
           <a href="#/rankings" class="btn btn-outline-primary btn-lg">Rankings</a>
+          <a href="#/bookmarks" class="btn btn-outline-primary btn-lg">Bookmarked Players</a>
         </div>
       </div>
     </div>
