@@ -248,9 +248,9 @@ body {
 
 /* The bouncing image */
 .bg-bouncer {
-  position: absolute;
-  top: 20%;
-  left: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 120px;
   height: 120px;
   background-image: url("/important-picture.jpg"); /* change path */
@@ -269,20 +269,16 @@ body {
 /* Horizontal movement */
 @keyframes bounce-x {
   0%   { transform: translateX(0); }
-  50%  { transform: translateX(70vw); }
+  50%  { transform: translateX(calc(100vw - 120px)); }
   100% { transform: translateX(0); }
 }
 
 /* Vertical movement */
 @keyframes bounce-y {
-  0%   { top: 10%; }
-  50%  { top: 65%; }
-  100% { top: 10%; }
+  0%   { top: 0; }
+  50%  { top: calc(100vh - 120px); }
+  100% { top: 0; }
 }
 
-/* Optional spin for tennis ball */
-@keyframes spin {
-  from { rotate: 0deg; }
-  to   { rotate: 360deg; }
-}
+
 
