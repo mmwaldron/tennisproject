@@ -239,3 +239,50 @@ body {
 .page-enter {
   animation: fadeIn 0.25s ease-out;
 }
+
+/* Home hero wrapper */
+.home-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+/* The bouncing image */
+.bg-bouncer {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 120px;
+  height: 120px;
+  background-image: url("/important-picture.jpg"); /* change path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+
+  animation:
+    bounce-x 18s linear infinite,
+    bounce-y 12s linear infinite,
+    spin 6s linear infinite;
+}
+
+/* Horizontal movement */
+@keyframes bounce-x {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(70vw); }
+  100% { transform: translateX(0); }
+}
+
+/* Vertical movement */
+@keyframes bounce-y {
+  0%   { top: 10%; }
+  50%  { top: 65%; }
+  100% { top: 10%; }
+}
+
+/* Optional spin for tennis ball */
+@keyframes spin {
+  from { rotate: 0deg; }
+  to   { rotate: 360deg; }
+}
+
