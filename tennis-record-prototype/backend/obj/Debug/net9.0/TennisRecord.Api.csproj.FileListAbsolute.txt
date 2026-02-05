@@ -25,3 +25,30 @@
 /Users/mollywaldron/Documents/MIS525/tennisproject/tennis-record-prototype/backend/obj/Debug/net9.0/TennisRecord.Api.pdb
 /Users/mollywaldron/Documents/MIS525/tennisproject/tennis-record-prototype/backend/obj/Debug/net9.0/TennisRecord.Api.genruntimeconfig.cache
 /Users/mollywaldron/Documents/MIS525/tennisproject/tennis-record-prototype/backend/obj/Debug/net9.0/ref/TennisRecord.Api.dll
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\appsettings.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\TennisRecord.Api.staticwebassets.endpoints.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\TennisRecord.Api.exe
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\TennisRecord.Api.deps.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\TennisRecord.Api.runtimeconfig.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\TennisRecord.Api.dll
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\bin\Debug\net9.0\TennisRecord.Api.pdb
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.AssemblyInfoInputs.cache
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.AssemblyInfo.cs
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.csproj.CoreCompileInputs.cache
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.sourcelink.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\scopedcss\bundle\TennisRecord.Api.styles.css
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.dll
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\refint\TennisRecord.Api.dll
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.pdb
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\TennisRecord.Api.genruntimeconfig.cache
+C:\Users\kevgo\OneDrive\Documents\Spring 2026\tennisproject\tennis-record-prototype\backend\obj\Debug\net9.0\ref\TennisRecord.Api.dll

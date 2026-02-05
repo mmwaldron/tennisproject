@@ -65,4 +65,29 @@ export async function getRankings(params = {}) {
   return request(`/api/rankings${qs ? `?${qs}` : ''}`);
 }
 
+// --- Bookmarks ---
+
+export async function getBookmarkedPlayers(params = {}) {
+  const search = new URLSearchParams();
+  Object.entries(params).forEach(([k, v]) => {
+    if (v != null && v !== '') search.set(k, v);
+  });
+  const qs = search.toString();
+  return request(`/api/bookmarks${qs ? `?${qs}` : ''}`);
+}
+
+export async function addBookmark(playerId) {
+  return request('/api/bookmarks', {
+    method: 'POST',
+    body: JSON.stringify({ playerId })
+  });
+}
+
+export async function removeBookmark(playerId) {
+  return request(`/api/bookmarks/${playerId}`, {
+    method: 'DELETE'
+  });
+}
+
+
 export { API_BASE };
